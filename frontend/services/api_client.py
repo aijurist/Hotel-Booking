@@ -8,6 +8,7 @@ def search_hotels(params: dict) -> Optional[list]:
         # Ensure float precision
         params['latitude'] = f"{params['latitude']:.8f}"
         params['longitude'] = f"{params['longitude']:.8f}"
+        params['max_distance_km'] = 20.0
         
         response = requests.get(
             "http://localhost:8000/api/hotels/search",

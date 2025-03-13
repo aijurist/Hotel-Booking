@@ -9,19 +9,6 @@ def load_styles():
         background-color: #f8f9fa;
     }
     
-    /* Hotel Card Styling */
-    .hotel-card {
-        background-color: white;
-        border-radius: 12px;
-        padding: 20px;
-        margin-bottom: 24px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-        transition: all 0.2s ease;
-    }
-    .hotel-card:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    }
     
     /* Hotel Image */
     .hotel-image {

@@ -150,7 +150,8 @@ def handle_search(location, check_in, check_out, adults, rooms, currency):
         "departure_date": check_out.strftime("%Y-%m-%d"),
         "adults": adults,
         "room_qty": rooms,
-        "currency_code": currency
+        "currency_code": currency,
+        "radius": 10
     }
     
     with st.status("Searching for the best hotels...", expanded=True) as status:
@@ -226,7 +227,7 @@ def display_welcome():
                     <div style="color: #6b7280; font-size: 0.9rem;">
                         {dest['hotels']} hotels
                     </div>
-                </div>
+                </div>v
             </div>
             """, unsafe_allow_html=True)
 
