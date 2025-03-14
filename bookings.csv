@@ -1,0 +1,1 @@
+booking_id,conversation_id,timestamp,guest_name,hotel_name,location,arrival_date,departure_date,adults,rooms,room_types,price,currency,preferences

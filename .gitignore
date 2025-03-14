@@ -2,3 +2,4 @@ backend/.env
 .venv/
 test.py
 test1.py
+.env
